@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea290cbe-8ecd-44eb-b4ed-5c6751e8ab62" name="Default Changelist" comment="" />
+    <list default="true" id="ea290cbe-8ecd-44eb-b4ed-5c6751e8ab62" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diegomendez/javatests/movies/model/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/diegomendez/javatests/movies/model/Genre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diegomendez/javatests/movies/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/diegomendez/javatests/movies/model/Movie.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,23 +21,27 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/diegomendez/javatests/movies/model/Movie.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/diegomendez/javatests/movies/service/MovieService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+            <state relative-caret-position="483">
+              <caret line="24" column="84" lean-forward="true" selection-start-line="24" selection-start-column="84" selection-end-line="24" selection-end-column="84" />
               <folding>
-                <element signature="e#227#228#0" expanded="true" />
-                <element signature="e#246#247#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/diegomendez/javatests/movies/model/Genre.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/diegomendez/javatests/movies/service/MovieServiceShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="441">
+              <caret line="50" column="38" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,11 +51,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -69,8 +82,13 @@
         <option value="$PROJECT_DIR$/src/test/java/com/diegomendez/javatests/util/DateUtilLeapYearShould.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/diegomendez/javatests/discounts/PriceCalculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/diegomendez/javatests/discounts/PriceCalculatorShould.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/diegomendez/javatests/movies/model/Genre.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diegomendez/javatests/movies/service/MovieRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diegomendez/javatests/movies/data/MovieRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/diegomendez/javatests/movies/model/Movie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diegomendez/javatests/movies/service/MovieService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/diegomendez/javatests/movies/service/MovieServiceShould.java" />
       </list>
     </option>
   </component>
@@ -86,6 +104,9 @@
     <option name="y" value="99" />
     <option name="width" value="1221" />
     <option name="height" value="635" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -149,6 +170,16 @@
               <item name="javatests" type="b2602c69:ProjectViewProjectNode" />
               <item name="javatests" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javatests" type="462c0819:PsiDirectoryNode" />
+              <item name="movies" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javatests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javatests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -183,16 +214,20 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.diegomendez.javatests.movies.service" />
       <recent name="com.diegomendez.javatests.discounts" />
       <recent name="com.diegomendez.javatests.util" />
       <recent name="com.diegomendez.javatests.payments" />
@@ -219,7 +254,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PriceCalculatorShould">
+  <component name="RunManager" selected="JUnit.MovieServiceShould">
     <configuration name="DateUtilLeapYearShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatests" />
       <extension name="coverage">
@@ -235,16 +270,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieServiceShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.diegomendez.javatests.payments.*" />
+          <option name="PATTERN" value="com.diegomendez.javatests.movies.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.diegomendez.javatests.payments" />
-      <option name="MAIN_CLASS_NAME" value="com.diegomendez.javatests.payments.PaymentProcessorTest" />
+      <option name="PACKAGE_NAME" value="com.diegomendez.javatests.movies.service" />
+      <option name="MAIN_CLASS_NAME" value="com.diegomendez.javatests.movies.service.MovieServiceShould" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -299,11 +334,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MovieServiceShould" />
         <item itemvalue="JUnit.PriceCalculatorShould" />
         <item itemvalue="JUnit.PriceCalculatorShould.total_is_the_sum_of_prices" />
         <item itemvalue="JUnit.PriceCalculatorShould.should_return_0_there_are_not_privces" />
         <item itemvalue="JUnit.DateUtilLeapYearShould" />
-        <item itemvalue="JUnit.PaymentProcessorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -319,29 +354,11 @@
       <updated>1559949793263</updated>
       <workItem from="1559949801858" duration="9500000" />
       <workItem from="1560027633489" duration="312000" />
-      <workItem from="1560642866345" duration="2987000" />
+      <workItem from="1560642866345" duration="5985000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DateUtilLeapYearShould - 2019.06.07 at 23h 24m 09s.xml">
-      <configuration name="DateUtilLeapYearShould" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DateUtilLeapYearShould - 2019.06.07 at 23h 25m 48s.xml">
-      <configuration name="DateUtilLeapYearShould" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DateUtilLeapYearShould - 2019.06.07 at 23h 27m 22s.xml">
-      <configuration name="DateUtilLeapYearShould" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PriceCalculatorShould - 2019.06.15 at 18h 18m 41s.xml">
-      <configuration name="PriceCalculatorShould" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PriceCalculatorShould - 2019.06.15 at 18h 18m 57s.xml">
-      <configuration name="PriceCalculatorShould" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PriceCalculatorShould_should_return_0_there_are_not_privces - 2019.06.15 at 18h 26m 59s.xml">
-      <configuration name="PriceCalculatorShould.should_return_0_there_are_not_privces" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PriceCalculatorShould_total_is_the_sum_of_prices - 2019.06.15 at 18h 27m 16s.xml">
       <configuration name="PriceCalculatorShould.total_is_the_sum_of_prices" configurationId="JUnit" />
     </history-entry>
@@ -354,15 +371,33 @@
     <history-entry file="PriceCalculatorShould - 2019.06.15 at 18h 32m 49s.xml">
       <configuration name="PriceCalculatorShould" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MovieServiceShould - 2019.06.15 at 20h 40m 39s.xml">
+      <configuration name="MovieServiceShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MovieServiceShould - 2019.06.15 at 20h 41m 56s.xml">
+      <configuration name="MovieServiceShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MovieServiceShould - 2019.06.15 at 20h 43m 53s.xml">
+      <configuration name="MovieServiceShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MovieServiceShould - 2019.06.15 at 20h 44m 13s.xml">
+      <configuration name="MovieServiceShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MovieServiceShould - 2019.06.15 at 20h 46m 23s.xml">
+      <configuration name="MovieServiceShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MovieServiceShould - 2019.06.15 at 20h 58m 35s.xml">
+      <configuration name="MovieServiceShould" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12799000" />
+    <option name="totallyTimeSpent" value="15797000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25641027" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25641027" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -371,7 +406,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32968238" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32930845" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -379,7 +414,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32968238" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32968238" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -575,21 +610,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diegomendez/javatests/movies/model/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-          <folding>
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/diegomendez/javatests/movies/model/Genre.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diegomendez/javatests/movies/data/MovieRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diegomendez/javatests/movies/model/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+            <element signature="e#883#884#0" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
+            <element signature="e#986#987#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diegomendez/javatests/movies/service/MovieService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="24" column="84" lean-forward="true" selection-start-line="24" selection-start-column="84" selection-end-line="24" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/diegomendez/javatests/movies/service/MovieServiceShould.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="50" column="38" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
